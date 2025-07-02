@@ -194,9 +194,18 @@
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
 
+/* napis update log */
 .section-title {
   text-align: center;
   font-size: 2rem;
+  color: #d99d1c;
+  margin-bottom: 25px;
+}
+
+/* napis zdjecia z updatu */
+.section-title2 {
+  text-align: center;
+  font-size: 1.2rem;
   color: #d99d1c;
   margin-bottom: 25px;
 }
@@ -254,3 +263,88 @@ tbody td {
   color: #d99d1c;
   font-weight: 600;
 }
+
+
+
+
+
+.log-container {
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 30px;
+      border-radius: 20px;
+      border: 2px solid #2f2f4f;
+      background-color: #262640;
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 25px;
+      font-size: 26px;
+      color: #ffcc00;
+    }
+
+    .table-wrapper {
+      overflow-x: auto;
+      border-radius: 10px;
+    }
+
+    table {
+      width: 100%;
+      min-width: 700px;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 14px;
+      text-align: left;
+      white-space: nowrap;
+    }
+
+    th {
+      background-color: #2f2f4f;
+      color: white;
+    }
+
+    td {
+      background-color: #3a3757;
+    }
+
+    tr:nth-child(even) td {
+      background-color: #3b375c;
+    }
+
+    tr.expand-button {
+      cursor: pointer;
+    }
+
+    tr.details {
+      display: none;
+    }
+
+    tr.details td {
+      background-color: #2e2e4e;
+    }
+
+    .image-preview {
+      max-width: 100%;
+      margin-top: 10px;
+      border-radius: 8px;
+      border: 1px solid #444;
+    }
+    
+/*kwadratowe zdjecia*/
+    .small-image {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+/*prostokątne zdjecia*/
+    .big-image {
+    width: 250px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+
